@@ -24,7 +24,7 @@ Code file `set_figure.m` only needs to be run once when starting up matlab.
 *e4* - Ellipticity of M4 between -1 and 1  
 *phi4_d* - Phase difference between M2 and M4 in degrees  
 
-*H_star - Mean water depth in m  
+*H_star* - Mean water depth in m  
 *D_sand_star* - Sediment layer thickness  
 *delta_a_star* - Buffer layer thickness above the non-erodible layer for Struiksma method  
 *cd_sand_star* - Roughness value on top of a sandy environment  
