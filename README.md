@@ -9,7 +9,7 @@ Model_name - string - Any name that can be given to the model to couple to model
 
 use_linFric - Boolean - to use the linear friction (Lorentz' linearisation)	
 
-L_dom - Domain length in m
+L_dom - Domain length in m\\
 theta_d	- Angle of M2 tide wrt y-axis (in degrees)
 theta0_d - Angle of M0 component wrt M2 (in degrees)
 theta4_d - Angle of M4 component wrt M4 (in degrees)
