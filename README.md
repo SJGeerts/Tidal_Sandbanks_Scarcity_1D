@@ -9,44 +9,44 @@ Model_name - string - Any name that can be given to the model to couple to model
 
 use_linFric - Boolean - to use the linear friction (Lorentz' linearisation)	
 
-L_dom - Domain length in m\\
-theta_d	- Angle of M2 tide wrt y-axis (in degrees)
-theta0_d - Angle of M0 component wrt M2 (in degrees)
-theta4_d - Angle of M4 component wrt M4 (in degrees)
+L_dom - Domain length in m  
+theta_d	- Angle of M2 tide wrt y-axis (in degrees)  
+theta0_d - Angle of M0 component wrt M2 (in degrees)  
+theta4_d - Angle of M4 component wrt M4 (in degrees)  
 
-U0 - Velocity magnitude of M0 component in m/s 
-U - Velocity amplitude of M2 component in m/2	
-e2 - Ellipticity of M2 between -1 and 1
-U4 - Velocity amplitude of M4 component in m/2	
-e4 - Ellipticity of M4 between -1 and 1
-phi4_d - Phase difference between M2 and M4 in degrees
+U0 - Velocity magnitude of M0 component in m/s   
+U - Velocity amplitude of M2 component in m/2	 
+e2 - Ellipticity of M2 between -1 and 1  
+U4 - Velocity amplitude of M4 component in m/2	 
+e4 - Ellipticity of M4 between -1 and 1  
+phi4_d - Phase difference between M2 and M4 in degrees  
 
-H_star - Mean water depth in m
-D_sand_star - Sediment layer thickness
-delta_a_star - Buffer layer thickness above the non-erodible layer for Struiksma method
-cd_sand_star - Roughness value on top of a sandy environment
-cd_NEL_star - Roughness value on top of the non-erodible layer
+H_star - Mean water depth in m  
+D_sand_star - Sediment layer thickness  
+delta_a_star - Buffer layer thickness above the non-erodible layer for Struiksma method  
+cd_sand_star - Roughness value on top of a sandy environment  
+cd_NEL_star - Roughness value on top of the non-erodible layer  
 
-alpha_b_star - Sediment transport magnitude
-uc_star - Critical velocity for erosion in m/s
-uw_star	- Wind wave stirring velocity magnitude in m/s
-lambda_star - Downslope dispersion coefficient
-latitude_d - Latitude in degrees
+alpha_b_star - Sediment transport magnitude  
+uc_star - Critical velocity for erosion in m/s  
+uw_star	- Wind wave stirring velocity magnitude in m/s  
+lambda_star - Downslope dispersion coefficient  
+latitude_d - Latitude in degrees  
 
-N_x - Number of spatial grid cells
-N_t - Number of temporal grid cells for the hydrodynamic cycle
-dtau - Morphological timestep
-tau_end	- End time of simulation
+N_x - Number of spatial grid cells  
+N_t - Number of temporal grid cells for the hydrodynamic cycle  
+dtau - Morphological timestep  
+tau_end	- End time of simulation  
 
-use_Struiksma - Boolean to switch to struiksma method
-th - theta for theta-method of hydrodynamics
-th_tau - theta for theta-method of slope-induced transport in Exner equation
-th_qcap - theta for theta-method of flow-induced transport in Exner equation
+use_Struiksma - Boolean to switch to struiksma method  
+th - theta for theta-method of hydrodynamics  
+th_tau - theta for theta-method of slope-induced transport in Exner equation  
+th_qcap - theta for theta-method of flow-induced transport in Exner equation  
 
-eps_u - convergence criterion hydrodynamics
-k_u_max - number of max iterations hydrodynamics
-eps_h - convergence criterion morphodynamics
-k_h_max - number of max iterations morphodynamics
+eps_u - convergence criterion hydrodynamics  
+k_u_max - number of max iterations hydrodynamics  
+eps_h - convergence criterion morphodynamics  
+k_h_max - number of max iterations morphodynamics  
 
 
 
