@@ -26,16 +26,16 @@ OnesP = [ones(N_x,1), zeros(N_x,1); zeros(N_x,1), ones(N_x,1)];
 
 % For solving Exner with sediment scarcity:
 % to limit mu to epsilon:
-A_eps = sparse([O, -speye(N_x), ones(N_x,1)]);
+A_eps = sparse([O, -speye(N_x), speye(N_x)]);
 b_eps = sparse(N_x,1);
 
 % upper bound: h, mu, eps
 ub_psi = [h_max;
     ones(N_x,1);
-    0];
+    zeros(N_x,1)];
 
 % objective function for psi_sol
-f_lin = [zeros(N_x,1);
-    -ones(N_x,1);
-    -N_x^2];
+f_lin = -[zeros(N_x,1);
+    ones(N_x,1);
+    N_x*ones(N_x,1)];
 
